@@ -1,0 +1,23 @@
+<div id="experiencia" class="surface-section px-4 py-8 md:px-6 lg:px-8">
+  <div class="text-700 text-center">
+    <div class="text-900 font-bold text-5xl mb-3">Experiência</div>
+      <div class="text-700 text-2xl mb-5"><div class="text-700 text-2xl mb-5">Descrevo abaixo minhas experiências profissionais.</div>
+      <div class="card">
+        <p-timeline [value]="events" align="alternate" styleClass="customized-timeline">
+            <ng-template pTemplate="marker" let-event>
+                <span 
+                    class="flex w-2rem h-2rem align-items-center justify-content-center text-white border-circle z-1 shadow-1" 
+                    [style]="{ 'background-color': event.color }">
+                        <i [class]="event.icon"></i>
+                </span>
+            </ng-template>
+            <ng-template pTemplate="content" let-event>
+                <p-card [header]="event.status" [subheader]="event.date">
+                  <p-button>{{ event.label }}</p-button>
+                  <p>{{ event.description }}</p>
+                </p-card>
+            </ng-template>
+        </p-timeline>
+    </div>
+  </div>
+</div>

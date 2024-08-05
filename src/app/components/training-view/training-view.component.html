@@ -1,0 +1,318 @@
+
+<div id="formacao" class="surface-ground px-4 py-5 md:px-6 lg:px-8">
+  <div class="text-900 font-bold text-5xl mb-3 text-center">Formação</div>
+  <div class="grid">
+      <div class="col-12 md:col-6 lg:col-3">
+          <div class="surface-card shadow-2 p-3 border-round">
+              <div class="flex justify-content-between mb-3">
+                  <div>
+                      <span class="block text-500 font-medium mb-3">Tecnólogo</span>
+                      <div class="text-900 font-medium">Análise e Desenvolvimento de Sistemas</div>
+                  </div>
+                  <div class="flex align-items-center justify-content-center bg-white border-round" style="width:2.5rem;height:2.5rem">
+                    <img src="/assets/images/descomplica.png" width="40" height="40" alt="Descomplica">
+                  </div>
+              </div>
+              <span class="text-green-500 font-medium">Descomplica</span>
+          </div>
+      </div>
+  </div>
+  <div class="text-900 text-3xl mb-3"><p>Cursos intensivos</p></div>
+  <div class="grid">
+    <div class="col-12 md:col-6 lg:col-3">
+        <div class="surface-card shadow-2 p-3 border-round">
+            <div class="flex justify-content-between mb-3">
+                <div>
+                    <span class="block text-500 font-medium mb-3">Curso</span>
+                    <div class="text-900 font-medium">Front End e UI/UX Design</div>
+                </div>
+                <div class="flex align-items-center justify-content-center bg-purple-700 border-round" style="width:2.5rem;height:2.5rem">
+                  <img src="/assets/images/origamid.jpg" width="30" height="30" alt="Origamid">  
+                </div>
+            </div>
+            <span class="text-purple-500 font-medium">Origamid</span>
+        </div>
+    </div>
+    <div class="col-12 md:col-6 lg:col-3">
+      <div class="surface-card shadow-2 p-3 border-round">
+          <div class="flex justify-content-between mb-3">
+              <div>
+                  <span class="block text-500 font-medium mb-3">Curso</span>
+                  <div class="text-900 font-medium">Full Stack JavaScript</div>
+              </div>
+              <div class="flex align-items-center justify-content-center bg-red-500 border-round" style="width:2.5rem;height:2.5rem">
+                <img src="/assets/images/oneBitCode.jpg" width="30" height="30" alt="One Bit Code">
+              </div>
+          </div>
+          <span class="text-red-500 font-medium">One Bit Code</span>
+      </div>
+    </div>
+    <div class="col-12 md:col-6 lg:col-3">
+      <div class="surface-card shadow-2 p-3 border-round">
+          <div class="flex justify-content-between mb-3">
+              <div>
+                  <span class="block text-500 font-medium mb-3">Curso</span>
+                  <div class="text-900 font-medium">Formação Full Stack Web</div>
+              </div>
+              <div class="flex align-items-center justify-content-center bg-orange-500 border-round" style="width:2.5rem;height:2.5rem">
+                <img src="/assets/images/hotmart.jpg" width="30" height="30" alt="Hotmart">
+              </div>
+          </div>
+          <span class="text-orange-500 font-medium">Hotmart</span>
+      </div>
+    </div>
+    <div class="col-12 md:col-6 lg:col-3">
+      <div class="surface-card shadow-2 p-3 border-round">
+          <div class="flex justify-content-between mb-3">
+              <div>
+                  <span class="block text-500 font-medium mb-3">Curso</span>
+                  <div class="text-900 font-medium">Auxiliar Administrativo</div>
+              </div>
+              <div class="flex align-items-center justify-content-center bg-purple-700 border-round" style="width:2.5rem;height:2.5rem">
+                <img src="/assets/images/senai.png" width="30" height="30" alt="Senai">  
+              </div>
+          </div>
+          <span class="text-purple-500 font-medium">Senai, Francisco Beltrão - PR</span>
+      </div>
+  </div>
+</div>
+<div class="text-900 text-3xl mb-3"><p>Idiomas</p></div>
+<div class="grid">
+  <div class="col-12 md:col-6 lg:col-3">
+      <div class="surface-card shadow-2 p-3 border-round">
+          <div class="flex justify-content-between mb-3">
+              <div>
+                  
+                  <div class="text-900 font-medium">Português / Fluente</div>
+                  <div class="text-900 font-medium">Inglês / Iniciante</div>
+              </div>
+              <div class="flex align-items-center justify-content-center bg-white border-round" style="width:2.5rem;height:2.5rem">
+                <img src="/assets/images/idioma.jpg" width="30" height="30" alt="Idiomas">
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<div class="formacao-tecnologias">
+  <p>Conhecimento nas principais tecnologias do mercado</p>
+  <div class="tech-icons">
+    <img
+      src="/assets/images/linguagens/html5.svg"
+      alt="HTML5"
+      class="tech-icon"
+      (mouseover)="
+        mostrarDefinicao(
+          'HTML 5',
+          'HTML (Hypertext Markup Language) é uma linguagem de marcação utilizada para criar páginas web.'
+        )
+      "
+    />
+    <img
+      src="/assets/images/linguagens/css.svg"
+      alt="CSS"
+      class="tech-icon"
+      (mouseover)="
+        mostrarDefinicao(
+          'CSS',
+          'CSS (Cascading Style Sheets) é uma linguagem de estilo utilizada para descrever a apresentação de documentos HTML.'
+        )
+      "
+    />
+    <img
+      src="/assets/images/linguagens/javascript.svg"
+      alt="JavaScript"
+      class="tech-icon"
+      (mouseover)="
+        mostrarDefinicao(
+          'JavaScript',
+          'JavaScript é uma linguagem de programação utilizada para criar interatividade em páginas web.'
+        )
+      "
+    />
+    <img
+      src="/assets/images/linguagens/typescript.svg"
+      alt="TypeScript"
+      class="tech-icon"
+      (mouseover)="
+        mostrarDefinicao(
+          'TypeScript',
+          'TypeScript é uma linguagem de programação que estende o JavaScript adicionando tipos estáticos.'
+        )
+      "
+    />
+    <img
+      src="/assets/images/linguagens/angular.svg"
+      alt="Angular"
+      class="tech-icon"
+      (mouseover)="
+        mostrarDefinicao(
+          'Angular',
+          'Angular é uma plataforma e framework para construir aplicações web dinâmicas.'
+        )
+      "
+    />
+    <img
+      src="/assets/images/linguagens/react.svg"
+      alt="React"
+      class="tech-icon"
+      (mouseover)="
+        mostrarDefinicao(
+          'React',
+          'React é uma biblioteca JavaScript para construir interfaces de usuário.'
+        )
+      "
+    />
+    <!-- <img
+      src="/assets/images/linguagens/vue.svg"
+      alt="Vue.js"
+      class="tech-icon"
+      (mouseover)="
+        mostrarDefinicao(
+          'Vue.js',
+          'Vue.js é um framework JavaScript progressivo para construir interfaces de usuário.'
+        )
+      "
+    /> -->
+    <img
+      src="/assets/images/linguagens/bootstrap.svg"
+      alt="Bootstrap"
+      class="tech-icon"
+      (mouseover)="
+        mostrarDefinicao(
+          'Bootstrap',
+          'Bootstrap é um framework CSS para desenvolvimento front-end responsivo e mobile-first.'
+        )
+      "
+    />
+    <img
+      src="/assets/images/linguagens/tailwindcss.svg"
+      alt="Tailwind CSS"
+      class="tech-icon"
+      (mouseover)="
+        mostrarDefinicao(
+          'Tailwind CSS',
+          'Tailwind CSS é um framework CSS utilitário para criar rapidamente layouts customizados.'
+        )
+      "
+    />
+    <img
+      src="/assets/images/linguagens/sass.svg"
+      alt="Sass"
+      class="tech-icon"
+      (mouseover)="
+        mostrarDefinicao(
+          'Sass',
+          'Sass (Syntactically Awesome Stylesheets) é um pré-processador CSS que adiciona recursos como variáveis, aninhamento e mixins.'
+        )
+      "
+    />
+    <img
+      src="/assets/images/linguagens/git.svg"
+      alt="Git"
+      class="tech-icon"
+      (mouseover)="
+        mostrarDefinicao(
+          'Git',
+          'Git é um sistema de controle de versão distribuído para acompanhar mudanças no código-fonte durante o desenvolvimento de software.'
+        )
+      "
+    />
+    <img
+      src="/assets/images/linguagens/npm.svg"
+      alt="npm"
+      class="tech-icon"
+      (mouseover)="
+        mostrarDefinicao(
+          'npm',
+          'npm (Node Package Manager) é o gerenciador de pacotes padrão para o ambiente de runtime Node.js.'
+        )
+      "
+    />
+    <img
+      src="/assets/images/linguagens/php.svg"
+      alt="PHP"
+      class="tech-icon"
+      (mouseover)="
+        mostrarDefinicao(
+          'PHP',
+          'PHP (Hypertext Preprocessor) é uma linguagem de script amplamente utilizada para desenvolvimento web.'
+        )
+      "
+    />
+    <!-- <img
+      src="/assets/images/linguagens/csharp.svg"
+      alt="C#"
+      class="tech-icon"
+      (mouseover)="
+        mostrarDefinicao(
+          'C#',
+          'C# (C-Sharp) é uma linguagem de programação moderna e orientada a objetos desenvolvida pela Microsoft.'
+        )
+      "
+    /> -->
+    <!-- <img
+      src="/assets/images/linguagens/dotnet.svg"
+      alt=".NET"
+      class="tech-icon"
+      (mouseover)="
+        mostrarDefinicao(
+          '.NET',
+          '.NET é uma plataforma de desenvolvimento para construir uma ampla variedade de aplicativos.'
+        )
+      "
+    /> -->
+    <img
+      src="/assets/images/linguagens/mysql.svg"
+      alt="MySQL"
+      class="tech-icon"
+      (mouseover)="
+        mostrarDefinicao(
+          'MySQL',
+          'MySQL é um sistema de gerenciamento de banco de dados relacional de código aberto.'
+        )
+      "
+    />
+    <!-- <img
+      src="/assets/images/linguagens/linux.svg"
+      alt="Linux"
+      class="tech-icon"
+      (mouseover)="
+        mostrarDefinicao(
+          'Linux',
+          'Linux é um sistema operacional de código aberto baseado no núcleo Linux.'
+        )
+      "
+    /> -->
+    <img
+      src="/assets/images/linguagens/copilot.svg"
+      alt="Copilot"
+      class="tech-icon"
+      (mouseover)="
+        mostrarDefinicao(
+          'Copilot',
+          'Copilot é uma ferramenta de assistência de código baseada em inteligência artificial desenvolvida pela OpenAI.'
+        )
+      "
+    />
+    <img
+      src="/assets/images/linguagens/chatgpt.svg"
+      alt="ChatGPT"
+      class="tech-icon"
+      (mouseover)="
+        mostrarDefinicao(
+          'ChatGPT',
+          'ChatGPT é um modelo de linguagem natural desenvolvido pela OpenAI para gerar texto de forma semelhante ao humano.'
+        )
+      "
+    />
+  </div>
+  <div class="box d-none d-md-block text-center mt-5" id="box">
+    <h4>Definição</h4>
+    <h6>
+      Explore as seguintes tecnologias ao passar o cursor sobre cada uma
+      delas para obter informações detalhadas sobre sua aplicação e
+      funcionalidades.
+    </h6>
+  </div>
+</div>
+</div>
